@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LET'S TALK ABOUT LOvE AND KARMA</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+<h1 id="title"> What goes around comes around. </h1>
+<p id="description"> karma is real.</p>
+
+<form id="survey-form">
+  <div class="input-element">
+  <label id="name-label">
+    Name
+  </label>
+  <input placeholder="name" id="name" type="text" required/>
+  </div>
+   <div class="input-element">
+  <label id="email-label">
+    Email
+  </label>
+  <input placeholder="email" id="email" type="email" required/>
+  </div>
+   <div class="input-element">
+  <label id="number-label">
+    Age
+  </label>
+  <input placeholder="age" id="number" min="5" max="100" type="number" required/>
+  </div>
+  <div class="input-element">
+  <label id="select-label">
+    how do you treat people? with;
+  </label>
+  <select id="dropdown">
+    <option>Love</option>
+    <option>Hate</option>
+    <option>Condescends</option>
+  </select>
+  </div>
+  <div>
+  <label>How do you show others love?</label>
+  <div> 
+    <label><input type="radio" name="love" value="yes"/>  Through affection,giving,sympathy and empathy</label>
+    </div>
+    <div>
+    <label><input type="radio" name="love" value="no"/> I dont understand the concept "love."</label>
+    
+  </div>
+  </div>
+
+  <div>
+    <label>What brings about hatred?</label>
+  <div> 
+    <label><input type="checkbox" name="hate" value="assumptions"/>negative assumptions</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="hate" value="jealousy"/> Jealousy</label>
+  </div>
+  <div>
+    <label><input type="checkbox" name="hate" value="different"/> Different beliefs about certain tradition or religion</label>
+  </div>
+  <div>
+    <label><input type="checkbox" name="hate" value="all"/> All of the above.</label>
+  </div>
+  </div>
+  <div class="input-elements ">
+    <label>Additional comments</label>
+    <textarea type="text"></textarea>
+    </div>
+    <button type="submit" id="submit">Submit</button>
+   
+</form>
+</body>
+</html>
